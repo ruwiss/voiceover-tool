@@ -1,6 +1,6 @@
 # Voiceover Tool
 
-RNNoise destekli, sade ve hızlı voiceover kayıt uygulaması. Video editörlerdeki karmaşık ses kayıt akışına girmeden temiz ses almayı, parçaları timeline üzerinde düzenlemeyi ve direkt dışa aktarmayı sağlar.
+RNNoise destekli, sade ve hızlı voiceover kayıt uygulaması. Video editörlerdeki karmaşık ses kayıt akışına girmeden temiz ses almayı, parçaları timeline üzerinde düzenlemeyi ve parça / tüm ses olarak dışa aktarmaya beklemeden sürükle bırak mantığıyla video düzenleyiclerde kullanmayı sağlar.
 
 ![Voiceover Tool ekran görüntüsü](./screenshot.png)
 
@@ -22,10 +22,6 @@ RNNoise destekli, sade ve hızlı voiceover kayıt uygulaması. Video editörler
 - `Ctrl+B`: imleç konumundan bölme yapar.
 - `Ctrl+E`: seçili sesi veya tüm timeline'ı export eder.
 - `Ctrl+Scroll`: timeline zoom seviyesini değiştirir.
-
-## Hızlı Akış
-
-Kaydı al, timeline üzerinde istediğin parçayı seç veya hiçbir şey seçmeden tüm kaydı hazırla. Sonra export alanından sesi direkt sürükleyip video editörünün timeline'ına bırak.
 
 ## Build
 
