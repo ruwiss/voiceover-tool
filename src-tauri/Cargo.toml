@@ -1,0 +1,31 @@
+[package]
+name = "voiceover-tool"
+version = "0.1.0"
+description = "RNNoise destekli voiceover kayıt ve timeline aracı"
+authors = ["voiceover-tool"]
+edition = "2021"
+
+[lib]
+name = "voiceover_tool_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "voiceover-tool"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+cpal = "0.15"
+hound = "3.5"
+nnnoiseless = { version = "0.5.2", default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tauri = { version = "2.0.0", features = ["protocol-asset"] }
+tauri-plugin-drag = "2.1.1"
+tauri-plugin-opener = "2.0.0"
+thiserror = "2.0"
+uuid = { version = "1.10", features = ["v4", "serde"] }
