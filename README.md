@@ -33,9 +33,3 @@ Kaydı al, timeline üzerinde istediğin parçayı seç veya hiçbir şey seçme
 npm install
 npm run tauri -- build
 ```
-
-Çıktı installer dosyası:
-
-```text
-src-tauri/target/release/bundle/nsis/Voiceover Tool_0.1.0_x64-setup.exe
-```
